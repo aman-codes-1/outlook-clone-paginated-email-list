@@ -1,4 +1,5 @@
 export { Card } from './Card';
-export { EmailCard } from './EmailCard';
+export { CardBody } from './CardBody';
+export { CardLayout } from './CardLayout';
 export { Header } from './Header';
 export { Loader } from './Loader';

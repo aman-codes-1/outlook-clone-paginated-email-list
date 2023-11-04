@@ -1,0 +1,26 @@
+.card-body {
+  width: 60%;
+  display: flex;
+  padding: 40px 55px 10px 30px;
+  border-radius: 10px;
+  border: 1px solid #D9DAE3;
+  background: #FFFFFF;
+  height: 78vh;
+  margin-right: 25px;
+}
+
+.card-body-container {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  overflow-y: scroll;
+  padding-right: 25px;
+  margin-bottom: 32px;
+}
+
+.card-body-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  gap: inherit;
+}

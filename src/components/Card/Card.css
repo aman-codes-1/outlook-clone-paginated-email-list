@@ -1,71 +1,26 @@
 .card {
   display: flex;
-  justify-content: space-between;
-}
-
-.card-selected {
-  gap: 30px;
-}
-
-.card-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  width: 100%;
-}
-
-.card-wrapper-selected {
-  width: 40%;
-}
-
-.email-card {
-  width: 60%;
-  display: flex;
-  padding: 40px 70px 10px 30px;
-  border-radius: 10px;
-  border: 1px solid #D9DAE3;
-  background: #FFFFFF;
-  gap: 25px;
-  cursor: pointer;
-}
-
-.card-container {
-  display: flex;
   padding: 10px 30px;
   border-radius: 10px;
   border: 1px solid #D9DAE3;
   background: #FFFFFF;
-  gap: 25px;
   cursor: pointer;
+}
+
+.card:hover {
+  border: 1px solid #E55065;
+}
+
+.card-container {
+  display: flex;
+  gap: 25px;
+  width: 100%;
 }
 
 .card-read {
   background: #F2F2F2;
 }
 
-.left-container {
-  
-}
-
-.avatar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 9999px;
-  background: #E55065;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-
-.right-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-size: 14px;
-}
-
-.email-body {
+.card-short-description {
   padding: 10px 0px;
 }

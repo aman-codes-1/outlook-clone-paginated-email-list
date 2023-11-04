@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: bold;
+  color: #848486;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-item {
+  cursor: pointer;
+  padding: 3px 16px;
+  border-radius: 20px;
+  border: 1px solid #F4F6FA;
+}
+
+.header-item:hover {
+  background-color: #e1e5ea;
+  border: 1px solid #D9DAE3;
+}
+
+.header-item-selected {
+  background-color: #e1e5ea;
+  border: 1px solid #D9DAE3;
+}

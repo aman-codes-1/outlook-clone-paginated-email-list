@@ -9,9 +9,9 @@
 1. Get all emails
 2. Get email body for a particular email
 
-Sample UI Email List View (<http://bit.ly/2VtQGcb>)
-Email body View (<http://bit.ly/2I5DemI>)
-Color codes (<http://bit.ly/2wa2pCa>)
+* Sample UI Email List View (<http://bit.ly/2VtQGcb>)
+* Email body View (<http://bit.ly/2I5DemI>)
+* Color codes (<http://bit.ly/2wa2pCa>)
 
 ### Product Features
 
@@ -49,7 +49,10 @@ Color codes (<http://bit.ly/2wa2pCa>)
 4. Technology choices (e.g. ES 6/7 over ES 5 - avoid mixing of ES 5/6/7).
 5. Your understanding of the problem statement.
 
-**API Sources**
+## API Sources
 
-1. Emails List APIs: <https://flipkart-email-mock.now.sh/> (Not Paginated) <https://flipkart-email-mock.now.sh/?page=><pageNumber> (Paginated) e.g. <https://flipkart-email-mock.now.sh/?page=1> and <https://flipkart-email-mock.now.sh/?page=2>
-2. Email body API: <https://flipkart-email-mock.now.sh/?id=><email-item-id> e.g. <https://flipkart-email-mock.now.sh/?id=3>
+1. Emails List APIs:
+   * <https://flipkart-email-mock.now.sh/> (Not Paginated)
+   * <https://flipkart-email-mock.now.sh/?page=><pageNumber> (Paginated) e.g. <https://flipkart-email-mock.now.sh/?page=1> and <https://flipkart-email-mock.now.sh/?page=2>
+2. Email body API:
+   * <https://flipkart-email-mock.now.sh/?id=><email-item-id> e.g. <https://flipkart-email-mock.now.sh/?id=3>

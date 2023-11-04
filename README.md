@@ -1,6 +1,6 @@
 # Problem Statement
 
-## Use React to solve the problem
+## Use React.js to solve the problem
 
 ### Build an email client app like Outlook
 
@@ -49,7 +49,7 @@
 4. Technology choices (e.g. ES 6/7 over ES 5 - avoid mixing of ES 5/6/7).
 5. Your understanding of the problem statement.
 
-## API Sources
+### API Sources
 
 1. Emails List APIs:
    * <https://flipkart-email-mock.now.sh/> (Not Paginated)

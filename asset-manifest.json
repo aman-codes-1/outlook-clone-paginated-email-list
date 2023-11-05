@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/outlook-clone-paginated-email-list/static/css/main.1dd59ddd.css",
+    "main.js": "/outlook-clone-paginated-email-list/static/js/main.0d35c881.js",
+    "static/js/787.9cad6902.chunk.js": "/outlook-clone-paginated-email-list/static/js/787.9cad6902.chunk.js",
+    "index.html": "/outlook-clone-paginated-email-list/index.html",
+    "main.1dd59ddd.css.map": "/outlook-clone-paginated-email-list/static/css/main.1dd59ddd.css.map",
+    "main.0d35c881.js.map": "/outlook-clone-paginated-email-list/static/js/main.0d35c881.js.map",
+    "787.9cad6902.chunk.js.map": "/outlook-clone-paginated-email-list/static/js/787.9cad6902.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dd59ddd.css",
+    "static/js/main.0d35c881.js"
+  ]
+}

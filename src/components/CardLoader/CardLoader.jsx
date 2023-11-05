@@ -13,6 +13,7 @@ const CardLoader = () => {
         </div>
       }
       date={<Skeleton animation="wave" width={150} />}
+      mainClass="card-loading"
     />
   );
 };

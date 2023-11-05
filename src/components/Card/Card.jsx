@@ -1,29 +1,32 @@
 import "./Card.css";
 
 const Card = ({
-  item,
-  id,
   avatar,
   from,
   subject,
   shortDesc,
   date,
-  handleClick,
+  favoriteBtn,
+  handleClickCard,
+  mainClass,
+  selectedClass,
+  readClass,
 }) => {
   return (
     <div
-      className={`card ${item && id && item?.id === id ? "card-read" : ""}`}
-      onClick={(_) => handleClick(_, item?.id)}
+      className={`${mainClass} ${selectedClass} ${readClass}`}
+      onClick={handleClickCard}
     >
       <div className="card-container">
-        <div className="left-container">
-          {avatar}
-        </div>
+        <div className="left-container">{avatar}</div>
         <div className="right-container">
           {from}
           {subject}
           {shortDesc}
-          {date}
+          <div className="card-footer">
+            {date}
+            {favoriteBtn}
+          </div>
         </div>
       </div>
     </div>

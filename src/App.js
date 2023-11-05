@@ -1,8 +1,13 @@
-import "./App.css";
+import { DataProvider } from "./contexts";
 import { Dashboard } from "./pages";
+import "./App.css";
 
 const App = () => {
-  return <Dashboard />;
+  return (
+    <DataProvider>
+      <Dashboard />
+    </DataProvider>
+  );
 };
 
 export default App;

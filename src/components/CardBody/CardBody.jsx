@@ -2,14 +2,19 @@ import { Loader } from "../Loader";
 import { formatDate } from "../../helpers";
 import "./CardBody.css";
 
-const CardBody = ({ data, state, id }) => {
+const CardBody = ({ data, state, id, emails, handleFavorite }) => {
   const userData = data?.length ? data?.find((item) => item?.id === id) : {};
+
+  const renderBtnValue = () => {
+    const idx = emails.findIndex((el) => el?.id === id);
+    return emails?.[idx]?.favorite ? 'Mark as unfavorite' : 'Mark as favorite';
+  }
 
   return (
     <div className="card-body">
       <div className="card-body-container">
         <div className="left-container">
-          <div className="avatar">
+          <div className="card-avatar">
             {userData?.from?.name?.substring(0, 1).toUpperCase()}
           </div>
         </div>
@@ -27,8 +32,9 @@ const CardBody = ({ data, state, id }) => {
                 border: "none",
                 marginLeft: "auto",
               }}
+              onClick={(_) => handleFavorite(_, id)}
             >
-              Mark as favorite
+              {renderBtnValue()}
             </button>
           </div>
           <div>{userData?.date ? formatDate(userData?.date) : null}</div>

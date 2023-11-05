@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 
-.card-selected {
+.card-clicked {
   gap: 25px;
 }
 
@@ -17,7 +17,7 @@
   padding-right: 25px;
 }
 
-.card-wrapper-selected {
+.card-wrapper-clicked {
   width: 40%;
   height: 85vh;
   overflow-y: scroll;
@@ -25,19 +25,22 @@
 }
 
 .left-container {
-  
 }
 
-.avatar {
+.card-avatar {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 42px;
   height: 42px;
   border-radius: 9999px;
-  background: #E55065;
-  color: #FFFFFF;
+  background: #e55065;
+  color: #ffffff;
   font-weight: bold;
+}
+
+.card-short-description {
+  padding: 10px 0px;
 }
 
 .right-container {
@@ -46,4 +49,10 @@
   gap: 10px;
   font-size: 14px;
   width: 100%;
+}
+
+.favorite-btn {
+  color: #e55065;
+  font-weight: bold;
+  cursor: pointer;
 }

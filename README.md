@@ -13,7 +13,7 @@
 * Email body View (<http://bit.ly/2I5DemI>)
 * Color codes (<http://bit.ly/2wa2pCa>)
 
-### Product Features
+### Key Features
 
 1. The app features an email list page. This page shows the list of emails sent to a user.
 2. Clicking on any email item in the list should split the screen into a master-slave (left-right) screen type where the master (left) shows the email list (with the selected email item) while the slave (right) shows the body of the email. The body of the email is not known ahead of time and should be loaded only when the email item is clicked.

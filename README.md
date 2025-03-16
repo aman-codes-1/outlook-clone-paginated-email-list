@@ -51,8 +51,8 @@
 
 ### API Sources
 
-1. Emails List APIs:
-   * <https://flipkart-email-mock.now.sh/> (Not Paginated)
-   * <https://flipkart-email-mock.now.sh/?page=><pageNumber> (Paginated) e.g. <https://flipkart-email-mock.now.sh/?page=1> and <https://flipkart-email-mock.now.sh/?page=2>
+1. Email List APIs:
+   * **Non Paginated**: <https://flipkart-email-mock.now.sh/>
+   * * **Paginated**: <https://flipkart-email-mock.now.sh/?page=1> and <https://flipkart-email-mock.now.sh/?page=2>
 2. Email body API:
-   * <https://flipkart-email-mock.now.sh/?id=><email-item-id> e.g. <https://flipkart-email-mock.now.sh/?id=3>
+   * <https://flipkart-email-mock.now.sh/?id=3>

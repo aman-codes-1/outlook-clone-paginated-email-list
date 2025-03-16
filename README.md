@@ -52,7 +52,7 @@
 ### API Sources
 
 1. Email List APIs:
-   * **Non Paginated**: <https://flipkart-email-mock.now.sh/>
+   * **Non Paginated**: <https://flipkart-email-mock.now.sh>
    * **Paginated**: <https://flipkart-email-mock.now.sh/?page=1> and <https://flipkart-email-mock.now.sh/?page=2>
 2. Email body API:
    * <https://flipkart-email-mock.now.sh/?id=3>
